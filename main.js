@@ -10,15 +10,17 @@ const cognome = prompt("inserisci il tuo cognome");
 const colore = prompt("inserisci il tuo colore preferito");
 
 //definisco la variabile NUMERO dell'utente
-const numero = "48"; //bonus?
+const numero = "48";
 
 //definisco la somma delle variabili ottenuta dai dati raccolti
 const totale = nome + cognome + colore + numero;
 
 //inserisco nel file HTML  i dati raccolti
-const elemento = document.getElementById('testo') 
+const elemento = document.getElementById('testo'); 
 elemento.innerHTML = totale
 
+//BONUS 1
+console.log(totale);
 
 
 console.log("sono collegato");
